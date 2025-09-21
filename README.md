@@ -81,3 +81,7 @@ Simulação de banco de dados em Java sem a utilização de frameworks.
      - Não afeta o funcionamento do banco de dados em si  
      - Você pode ter múltiplas conexões com nomes diferentes no mesmo NetBeans  
    - Este nome aparecerá posteriormente no painel "Services" do NetBeans (geralmente na seção "Databases"), permitindo que você gerencie facilmente a conexão com o banco H2.
+
+     01_resul-config-netbce jdbc jpa.png
+
+![Texto Alternativo](01_resul-config-netbce jdbc jpa.png)
