@@ -2,6 +2,11 @@
 
 Simulação de banco de dados em Java sem a utilização de frameworks.
 
+## 0. Referencial teórico
+1. Diagrama dos conceitos abordados
+![Texto Alternativo](00_dia-coneitos.png)
+
+
 ## 1. Objetivos
 
 - Projeto simples em Java utilizando NetBeans, JDBC e JPA;
