@@ -4,7 +4,9 @@ Simulação de banco de dados em Java sem a utilização de frameworks.
 
 ## 0. Referencial teórico
 1. Diagrama dos conceitos abordados
-![Texto Alternativo](00_dia-coneitos.png)
+![Diagrama 1](00_dia-coneitos.png)
+
+![Diagrama 2](19_Perisstencia_Java.html)
 
 
 ## 1. Objetivos
