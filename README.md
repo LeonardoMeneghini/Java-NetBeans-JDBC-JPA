@@ -85,3 +85,27 @@ Simulação de banco de dados em Java sem a utilização de frameworks.
      01_resul-config-netbce jdbc jpa.png
 
 ![Texto Alternativo](01_resul-config-netbce jdbc jpa.png)
+
+4. Criação de uma entidade
+- Entidade simples chamada Estacao de Trabalho.
+
+    Clique com o botão direito no pacote padrão (geralmente com.mycompany.jpajdbcexample) -> New -> Java Class...
+
+    Nomeie como Usuario.
+
+    Adicione o seguinte código:
+
+  5. Passo 5: Criar um DAO (Data Access Object) usando JPA
+
+Vamos criar uma classe UsuarioDAO que utilizará JPA para persistir a entidade.
+
+    Clique com o botão direito no pacote -> New -> Java Class -> Nomeie como UsuarioDAO.
+
+
+    6. asso 6: Criar a classe Main
+
+Agora, vamos criar a classe principal para testar.
+
+    Clique com o botão direito no pacote -> New -> Java Class -> Nomeie como Main.
+
+java
