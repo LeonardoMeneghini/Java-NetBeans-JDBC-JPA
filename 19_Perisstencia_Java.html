@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Persist&#xea;ncia de Dados em Java","children":[{"content":"\n<p data-lines=\"2,3\"><strong>Banco de Dados</strong></p>","children":[{"content":"Armazenamento dos dados (MySQL, PostgreSQL, Oracle, etc.)","children":[],"payload":{"tag":"li","lines":"3,5"}}],"payload":{"tag":"li","lines":"2,5"}},{"content":"\n<p data-lines=\"5,6\"><strong>Persist&#xea;ncia de Dados</strong></p>","children":[{"content":"Conceito de manter dados al&#xe9;m da execu&#xe7;&#xe3;o do programa","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Normalmente em bancos relacionais","children":[],"payload":{"tag":"li","lines":"7,9"}}],"payload":{"tag":"li","lines":"5,9"}},{"content":"\n<p data-lines=\"9,10\"><strong>JDBC (Java Database Connectivity)</strong></p>","children":[{"content":"API de baixo n&#xed;vel","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"Requer SQL manual","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"Gerenciamento manual de conex&#xf5;es e resultados","children":[],"payload":{"tag":"li","lines":"12,14"}}],"payload":{"tag":"li","lines":"9,14"}},{"content":"\n<p data-lines=\"14,15\"><strong>JPA (Java Persistence API)</strong></p>","children":[{"content":"Especifica&#xe7;&#xe3;o Java para persist&#xea;ncia","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Modelo orientado a objetos","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Mapeamento objeto-relacional (ORM)","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"Abstrai JDBC","children":[],"payload":{"tag":"li","lines":"18,20"}}],"payload":{"tag":"li","lines":"14,20"}},{"content":"\n<p data-lines=\"20,21\"><strong>Hibernate</strong></p>","children":[{"content":"Implementa&#xe7;&#xe3;o popular do JPA","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Framework ORM","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Gera SQL automaticamente","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Recursos avan&#xe7;ados: caching, lazy loading, HQL","children":[],"payload":{"tag":"li","lines":"24,26"}}],"payload":{"tag":"li","lines":"20,26"}},{"content":"\n<p data-lines=\"26,27\"><strong>DAO (Data Access Object)</strong></p>","children":[{"content":"Padr&#xe3;o de projeto","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"Camada para acessar dados","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"Usa JDBC, JPA ou Hibernate internamente","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Separa l&#xf3;gica de neg&#xf3;cio da persist&#xea;ncia","children":[],"payload":{"tag":"li","lines":"30,31"}}],"payload":{"tag":"li","lines":"26,31"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
