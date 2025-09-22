@@ -1,12 +1,13 @@
 # Java-NetBeans-JDBC-JPA
 
-Simulação de banco de dados em Java sem a utilização de frameworks.
+Simulação de banco de dados em Java.
 
 ## 0. Referencial teórico
 1. Diagrama dos conceitos abordados
+   
 ![Diagrama 1](00_dia-coneitos.png)
 
-![Diagrama 2](19_Perisstencia_Java.html)
+![Diagrama 2](19_Java_JDBC_JPA_DAO.JPG)
 
 
 ## 1. Objetivos
